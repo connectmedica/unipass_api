@@ -13,4 +13,8 @@ Gem::Specification.new do |gem|
   gem.name          = 'unipass_api'
   gem.require_paths = ['lib']
   gem.version       = UnipassApi::VERSION
+
+  gem.add_dependency 'omniauth', '~> 0.3.2'
+  gem.add_dependency 'oauth2'
+  gem.add_dependency 'rake'
 end

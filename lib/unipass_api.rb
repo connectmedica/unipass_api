@@ -1,3 +1,5 @@
+require 'oauth2'
+
 require 'unipass_api/client'
 require 'unipass_api/config'
 require 'unipass_api/resource_invalid'
