@@ -20,3 +20,7 @@ task 'test' do
     t.verbose = true
   end
 end
+
+if ENV['CI']
+  Rake::Task["test"].invoke
+end

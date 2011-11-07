@@ -1,5 +1,7 @@
 # Unipass API #
 
+[![Build Status](https://secure.travis-ci.org/tjeden/unipass_api.png)](http://travis-ci.org/tjeden/unipass_api)
+
 This is wrapper for Unipass REST API. In order to use it, you will need to get unipas access token (see [omniauth-unipass](https://github.com/tjeden/omniauth-unipass))
 
 # Installation #
