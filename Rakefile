@@ -21,6 +21,4 @@ task 'test' do
   end
 end
 
-if ENV['TRAVIS']
-  Rake::Task["test"].invoke
-end
+task :default => :test
