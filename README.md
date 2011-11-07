@@ -1,6 +1,6 @@
 # Unipass API #
 
-This is wrapper for Unipass REST API. In order to use it, you will need to get unipas access token (see [omniauth-unipass][https://github.com/tjeden/omniauth-unipass])
+This is wrapper for Unipass REST API. In order to use it, you will need to get unipas access token (see [omniauth-unipass](https://github.com/tjeden/omniauth-unipass))
 
 # Installation #
 
