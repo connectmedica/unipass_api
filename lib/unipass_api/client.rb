@@ -5,12 +5,12 @@ module UnipassApi
     attr_accessor :access_token, :refresh_token, :expires_at
 
     def initialize(options = {}, &block)
-      @client_id     = options[:client_id]     || UnipassApi2.config['client_id']
-      @client_secret = options[:client_secret] || UnipassApi2.config['client_secret']
-      @site          = options[:site]          || UnipassApi2.config['site']
-      @api_site      = options[:api_site]      || UnipassApi2.config['api_site']
-      @authorize_url = options[:authorize_url] || UnipassApi2.config['authorize_url']
-      @token_url     = options[:token_url]     || UnipassApi2.config['token_url']
+      @client_id     = options[:client_id]     || UnipassApi.options[:client_id]
+      @client_secret = options[:client_secret] || UnipassApi.options[:client_secret]
+      @site          = options[:site]          || UnipassApi.options[:site]
+      @api_site      = options[:api_site]      || UnipassApi.options[:api_site]
+      @authorize_url = options[:authorize_url] || UnipassApi.options[:authorize_url]
+      @token_url     = options[:token_url]     || UnipassApi.options[:token_url]
 
       self.access_token  = options[:access_token]
       self.refresh_token = options[:refresh_token]
