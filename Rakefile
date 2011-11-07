@@ -21,6 +21,6 @@ task 'test' do
   end
 end
 
-if ENV['CI']
+if ENV['TRAVIS']
   Rake::Task["test"].invoke
 end
